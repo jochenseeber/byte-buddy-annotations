@@ -1,0 +1,4 @@
+class net/bytebuddy/description/method/ParameterDescription
+getType
+ ()Lnet/bytebuddy/description/type/TypeDescription$Generic;
+ ()L1net/bytebuddy/description/type/TypeDescription$Generic;

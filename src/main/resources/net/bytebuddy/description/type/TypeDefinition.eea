@@ -1,0 +1,13 @@
+class net/bytebuddy/description/type/TypeDefinition
+asGenericType
+ ()Lnet/bytebuddy/description/type/TypeDescription$Generic;
+ ()L1net/bytebuddy/description/type/TypeDescription$Generic;
+getComponentType
+ ()Lnet/bytebuddy/description/type/TypeDefinition;
+ ()L0net/bytebuddy/description/type/TypeDefinition;
+getInterfaces
+ ()Lnet/bytebuddy/description/type/TypeList$Generic;
+ ()L1net/bytebuddy/description/type/TypeList$Generic;
+getSuperClass
+ ()Lnet/bytebuddy/description/type/TypeDescription$Generic;
+ ()L0net/bytebuddy/description/type/TypeDescription$Generic;

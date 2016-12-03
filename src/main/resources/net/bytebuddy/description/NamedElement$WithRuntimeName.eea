@@ -1,0 +1,4 @@
+class net/bytebuddy/description/NamedElement$WithRuntimeName
+getName
+ ()Ljava/lang/String;
+ ()L1java/lang/String;

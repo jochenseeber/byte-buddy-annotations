@@ -1,0 +1,7 @@
+class net/bytebuddy/description/method/MethodDescription
+getParameters
+ ()Lnet/bytebuddy/description/method/ParameterList<*>;
+ ()L1net/bytebuddy/description/method/ParameterList<*1>;
+getReturnType
+ ()Lnet/bytebuddy/description/type/TypeDescription$Generic;
+ ()L1net/bytebuddy/description/type/TypeDescription$Generic;

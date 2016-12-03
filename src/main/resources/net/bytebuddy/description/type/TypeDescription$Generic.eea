@@ -1,0 +1,4 @@
+class net/bytebuddy/description/type/TypeDescription$Generic
+getTypeArguments
+ ()Lnet/bytebuddy/description/type/TypeList$Generic;
+ ()L1net/bytebuddy/description/type/TypeList$Generic;

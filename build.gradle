@@ -7,9 +7,10 @@
     }
 
     dependencies {
-        classpath group: "me.seeber.gradle", name: "gradle-github-config", version: "1.1.0"
-        classpath group: "me.seeber.gradle", name: "gradle-license-config", version: "1.1.0"
-        classpath group: "me.seeber.gradle", name: "gradle-project-config", version: "1.1.0"
+        classpath group: "me.seeber.gradle", name: "gradle-bintray-config", version: "1.1.1"
+        classpath group: "me.seeber.gradle", name: "gradle-github-config", version: "1.1.1"
+        classpath group: "me.seeber.gradle", name: "gradle-license-config", version: "1.1.1"
+        classpath group: "me.seeber.gradle", name: "gradle-project-config", version: "1.1.1"
     }
 }
 
@@ -17,11 +18,11 @@ version = "1.4.30-r.2"
 group = "me.seeber.annotations"
 description = "External annotations for Byte Buddy ${version.tokenize('-').first()}"
 
-apply plugin: "me.seeber.project.annotations"
-// apply plugin: "me.seeber.distribution.bintray"
-apply plugin: "me.seeber.repository.github"
+apply plugin: "me.seeber.distribution.bintray"
 apply plugin: "me.seeber.distribution.maven"
 apply plugin: "me.seeber.ide.eclipse"
+apply plugin: "me.seeber.project.annotations"
+apply plugin: "me.seeber.repository.github"
 apply plugin: "me.seeber.setup.license"
 
 model {

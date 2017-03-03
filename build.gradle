@@ -14,7 +14,7 @@
     }
 }
 
-version = "1.4.30-r.2"
+version = "1.4.30-r.3"
 group = "me.seeber.annotations"
 description = "External annotations for Byte Buddy ${version.tokenize('-').first()}"
 
